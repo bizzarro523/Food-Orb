@@ -1,0 +1,33 @@
+<app-main-header></app-main-header>
+<div class="container">
+    <h3>Contents of your cart.</h3>
+    <p>Total Amount: {{total|currency}}</p>
+    <table>
+        <thead class="table">
+            <tr>
+            <tr>
+                <th>Sr. No</th>
+                <th>Order</th>
+                <th>Cost</th>
+            </tr>
+        </thead>
+        <tbody class="table table-striped">
+            <tr *ngFor='let cart of cartItems'>
+                <td *ngIf="userId == cart.userId">{{cart.id}}</td>
+                <td *ngIf="userId==cart.userId">{{cart.order}}</td>
+                <td *ngIf="userId == cart.userId">{{cart.cost | currency}}</td>
+
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td><b>Total</b></td>
+                <td></td>
+                <td><b>{{total| currency}}</b></td>
+            </tr>
+        </tfoot>
+    </table>
+    <button type='submit' class='btn btn-primary' (click)="placeOrder()">Place Order</button>
+
+    <button type='button' class="btn btn-light" routerLink="/list-food/{{userId}}">Home</button>
+</div>

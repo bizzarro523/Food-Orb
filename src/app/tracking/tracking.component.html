@@ -1,0 +1,13 @@
+<app-main-header></app-main-header>
+
+<button type='button' class="btn btn-light" routerLink="/list-food/{{userId}}">Home</button>
+<div class="container">
+    <h4>Order Details</h4>
+    <h5>Your Order Placed Successfully</h5>
+    <h3>Status:<br />
+        {{status}}</h3>
+    <p>Remaining time:</p>
+    <p>{{(timeLeft/60) | number: '1.0-0'}} Minutes Left</p>
+    <p>Your food is being cooked sit back and relax while our partners deliver hot and yummy food at your doorstep</p>
+    <button type="button" class="btn btn-outline-danger" (click)="cancelOrder()">Cancel Order</button>
+</div>

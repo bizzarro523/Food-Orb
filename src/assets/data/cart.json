@@ -1,0 +1,40 @@
+{
+  "cart": [
+    {
+      "id": 685264697,
+      "userId": "34742467",
+      "order": "Cajun Spiced Chicken",
+      "cost": 20
+    },
+    {
+      "id": 381469862,
+      "userId": "34742467",
+      "order": "Chicken Dry Fry",
+      "cost": 15
+    },
+    {
+      "id": 401829420,
+      "userId": "315552721",
+      "order": "Cajun Spiced Chicken",
+      "cost": 20
+    },
+    {
+      "id": 366590340,
+      "userId": "100",
+      "order": "Spicy Tuna Roll",
+      "cost": 12
+    },
+    {
+      "id": 143248666,
+      "userId": "401734326",
+      "order": "Cajun Spiced Chicken",
+      "cost": 20
+    },
+    {
+      "id": 789562804,
+      "userId": "100",
+      "order": "Spanish Seafood Paella",
+      "cost": 27.99
+    }
+  ]
+}

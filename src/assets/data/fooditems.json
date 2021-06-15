@@ -1,0 +1,36 @@
+{
+    "fooditems": [
+        {
+            "id": 100000,
+            "restaurant": "Sangria 71",
+            "description": "Spanish Restaurant | Rating: 4.9 | $27.99",
+            "dish": "Spanish Seafood Paella",
+            "cost": 27.99,
+            "foodImageUrl": "https://images.unsplash.com/photo-1588276552401-30058a0fe57b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGFlbGxhfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+            "id": 100001,
+            "restaurant": "Kabablo",
+            "description": "Indian Restaurant | Rating: 3.2 | $20",
+            "dish": "Cajun Spiced Chicken",
+            "cost": 20,
+            "foodImageUrl": "https://images.unsplash.com/photo-1598511796318-7b8256bd2b20?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHNwaWN5JTIwY2hpY2tlbnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+            "id": 100002,
+            "restaurant": "The Good Bowl",
+            "description": "Fast Food, Indian Restaurant | Rating: 3.0 | $15",
+            "dish": "Chicken Dry Fry",
+            "cost": 15,
+            "foodImageUrl": "https://images.unsplash.com/photo-1532550907401-a500c9a57435?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hpZWtjbiUyMGdyaWxsZWR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+            "id": 100003,
+            "restaurant": "Kenji Sushi",
+            "description": "Japanese Restaurant | Rating: 3.9| $12",
+            "dish": "Spicy Tuna Roll",
+            "cost": 12,
+            "foodImageUrl": "https://images.unsplash.com/photo-1558985212-92c2ff0b56e7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHR1bmElMjByb2xsfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+        }
+    ]
+}

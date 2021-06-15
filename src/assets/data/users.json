@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "id": 100,
+      "userName": "Sue Lane",
+      "userEmail": "user1@aol.com",
+      "userPhone": "5165657987",
+      "userProfession": "Web Developer",
+      "userPw": "helloworld"
+    },
+    {
+      "id": 34742467,
+      "userName": "Bob Smith",
+      "userEmail": "email@yahoo.com",
+      "userPhone": "2124569874",
+      "userProfession": "Barista",
+      "userPw": "abcdefg"
+    },
+    {
+      "id": 315552721,
+      "userName": "John Doe",
+      "userEmail": "john@doe.com",
+      "userPhone": "917-897-5642",
+      "userProfession": "Architect",
+      "userPw": "angular"
+    },
+    {
+      "id": 401734326,
+      "userName": "Lisa ",
+      "userEmail": "lisa@aol.com",
+      "userPhone": "987-852-7451",
+      "userProfession": " Bank Teller",
+      "userPw": "pizza1"
+    }
+  ]
+}

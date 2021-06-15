@@ -1,0 +1,43 @@
+<app-main-header></app-main-header>
+<div class='container-fluid'>
+    <input type="text" size="50" [(ngModel)]='searchString' (keyup)='filterFood()' id='search'
+        placeholder="Search Food Items" />
+
+    <div class='row'>
+        <div class='col-11'>
+            <div class='row'>
+
+                <div class="col-lg-3" *ngFor='let food of allFoods'>
+
+                    <div class="card h-100" style="width:300px">
+                        <img class="card-img-top" [src]="food.foodImageUrl" alt="image" />
+                        <div class="card-body">
+                            <div class="row d-flex justify-content-between">
+                                <h5 class="card-title">{{ food.restaurant }}</h5>
+                            </div>
+                            <div class="mt-1 row d-flex flex-row justify-content-between">
+                                <div class="small text-muted">
+                                    {{ food.description }}
+                                </div><br />
+                                <div class="small text">{{ food.dish }} </div>
+                                <div class="small">
+                                    <button type='button' class="btn btn-primary" (click)='addToCart(food)'>
+                                        Add to Cart
+                                    </button>
+                                </div>
+                                <!-- <div class="small">
+                                    <button type='button' class="btn btn-primary btn-sm mt-2"
+                                        <(click)='editProduct(product.id)'>
+                                        Buy/Order
+                                    </button>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

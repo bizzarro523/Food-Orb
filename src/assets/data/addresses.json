@@ -1,0 +1,28 @@
+{
+  "addresses": [
+    {
+      "id": 846179949,
+      "userId": "34742467",
+      "name": " Home",
+      "address": "208 House Street"
+    },
+    {
+      "id": 295978692,
+      "userId": "100",
+      "name": " Home",
+      "address": "77 Flower Drive, NYC"
+    },
+    {
+      "id": 133448946,
+      "userId": "315552721",
+      "name": " Work",
+      "address": "2134 Johsnon Rd, Kansas City, MO"
+    },
+    {
+      "id": 652656227,
+      "userId": "401734326",
+      "name": " Home",
+      "address": "90 Scranton Ave, Brooklyn, NY"
+    }
+  ]
+}

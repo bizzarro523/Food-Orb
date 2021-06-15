@@ -1,0 +1,27 @@
+<app-main-header></app-main-header>
+<div class="container">
+    <h2>Address Settings</h2>
+    <hr>
+    <button type="button" class="btn btn-outline-primary" (click)="addAddress()">Add New Address</button>
+    <!-- <div class='row'>
+        <div class='col-11'>
+            <div class='row'> -->
+    <div class="col-lg-3" *ngFor='let address of addresses'>
+        <div class='row'>
+            <div class='col-11'>
+                <div class='row'>
+                    <div class="card-body">
+                        <div *ngIf="userId == address.userId">
+                            <h4>Address</h4>
+                            <p class="text-secondary mb-1">{{address.name}}</p>
+                            <p class="text-muted font-size-sm">{{address.address}}</p>
+                            <button class="btn btn-outline-primary"
+                                routerLink="/editAddress/{{address.id}}">Edit</button><br /><br />
+                            <button class="btn btn-danger" (click)=deleteAddress(address.id)>Delete</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
