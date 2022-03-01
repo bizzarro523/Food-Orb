@@ -31,6 +31,14 @@
       "userPhone": "987-852-7451",
       "userProfession": " Bank Teller",
       "userPw": "pizza1"
+    },
+    {
+      "id": 902500151,
+      "userName": "user2",
+      "userEmail": "urapoop123@noone.com",
+      "userPhone": " 123456789",
+      "userProfession": " poop handler",
+      "userPw": "Poop123"
     }
   ]
 }
