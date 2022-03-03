@@ -1,18 +1,10 @@
-# AngularFinalProject
+# Angular FoodOrb App
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.3.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Begin by watching json servers for data. In separate terminals navigate towards Food-Orb/src/assets/data. Run command `json-server --watch users.json`, `json-server --watch --port 5000 fooditems.json`, `json-server --watch --port 6002 addresses.json`, & `json-server --watch --port 6001 cart.json`. Then run `ng serve -o` for a dev server.
 
 ## Running unit tests
 
